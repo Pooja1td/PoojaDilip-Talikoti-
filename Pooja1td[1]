@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<title>RPubs</title>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="5YoLmtE5iup2c-PL8WyXtF0L2DpWeQo8P90P8GBc3-Da68dr46ybXwxTT2CcSD3tAA4Dn9ams5IC5ehMtKJ0Pg" />
+
+<link rel="stylesheet" href="/assets/application-798c5c8185e0577f32ef6e494dc6f4844600dab47b198e609bdfdfc5c2bd1ba6.css" media="all" />
+<script src="/assets/application-f0c30dc3dc92395deb81849f84afdb351879582dcbbd6f2706a66bff0524a8fc.js"></script>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0' name='viewport'>
+<link rel="stylesheet" href="https://use.typekit.net/tzi3tjz.css">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-20375833-3', 'auto', {'allowLinker': true});
+  ga('require', 'linker');
+  ga('linker:autoLink', ['rstudio.com', 'rstudio.github.io', 'rviews.rstudio.com', 'community.rstudio.com', 'rpubs.rstudio.com', 'environments.rstudio.com', 'rstudio.org', 'dailies.rstudio.com', 'pages.rstudio.com', 'db.rstudio.com', 'solutions.rstudio.com', 'docs.rstudio.com', 'spark.rstudio.com', 'shiny.rstudio.com', 'education.rstudio.com', 'rstudio.cloud', 'shinyapps.io', 'teamadmin.rstudio.com', 'blog.rstudio.com', 'support.rstudio.com'] );
+  ga('send', 'pageview');
+</script>
+
+</head>
+<body>
+<div class='modal' id='login' style='display: none'>
+<div class='modal-header'>
+<h1>Sign In</h1>
+</div>
+<div class='modal-body'>
+<div class='alert' id='login_message' style='display: none'></div>
+<form action="/auth/login" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" autocomplete="off" /><input type="hidden" name="authenticity_token" value="lcdFZxCv3ucr7RPEvkYOtpINIppn-T9bkOXRzsI40twmUTfZ_Fd2H2zvp-m1lhO6A0AsLybJP-Be0b_vOqXS5g" autocomplete="off" /><input name='return_url' type='hidden' value=''>
+<div class='fieldset'>
+<div class='control-group'>
+<label class='control-label' for='login_username'>Username or Email</label>
+<div class='controls'>
+<input class='input-xlarge' id='login_username' name='username' type='text'>
+</div>
+</div>
+<div class='control-group'>
+<label class='control-label' for='login_password'>Password</label>
+<div class='controls'>
+<input class='input-xlarge' id='login_password' name='password' type='password'>
+</div>
+</div>
+<div class='control-group'>
+<a href='/auth/passwordhelp' target='_blank'>Forgot your password?</a>
+</div>
+</div>
+</form>
+</div>
+<div class='modal-footer'>
+<button class='btn btn-primary' id='login-modal-submit'>Sign In</button>
+<button class='btn' id='login-modal-cancel'>Cancel</button>
+</div>
+</div>
+<div id='main'>
+<div id='pageheader'>
+<div id='branding'>
+<h1 id='logo'>
+<a href='/'><span id='R'>R</span>Pubs
+</a>
+</h1>
+<span id='tagline'>by RStudio</span>
+</div>
+<div id='identity'>
+<div class='btn-group'>
+<a class='btn btn-small pull-right' href='#' onclick='rpubs_showLogin(); return false'>
+Sign in
+</a>
+<a class='btn btn-small pull-right' href='/users/new'>
+Register
+</a>
+</div>
+</div>
+</div>
+<div id='pagebody'>
+<div class='pagebodyhead'>
+<div class='userblock'>
+<a href="https://rpubs.com/Pooja1td" class="gravatar-link"><img src="https://secure.gravatar.com/avatar/f9ddc025774df900e4d3c5b65a7039f1?s=64" class="gravatar" alt="gravatar" style="width: 64px; height: 64px"/></a>
+<h1>Pooja1td</h1>
+<h3>Pooja Dilip Talikoti </h3>
+</div>
+</div>
+<h2>Recently Published</h2>
+<div class='pubs'>
+<div class='pubrow2'></div>
+<div class='pubrow3'></div>
+<div class='pubtile'>
+<a href="https://rpubs.com/Pooja1td/1267164"><img class="pubthumb" alt="" src="https://d38j8069scdbm5.cloudfront.net/v6/P5441C759E0FFE/57277631052c615b63bc43df7c42f507/png/?thumbnail_max_width=200&amp;unique=1738272536&amp;url=https%3A%2F%2Frstudio-pubs-static.s3.amazonaws.com%2F1267164_653428fc85a6409094863fa429a3899a.html&amp;viewport=960x960" /></a>
+<div class='pubinfo'>
+<h5><a href="https://rpubs.com/Pooja1td/1267164">Document</a></h5>
+<div class='desc'></div>
+<time datetime='2025-01-30T21:28:56+00:00'>17 days ago</time>
+</div>
+</div>
+<div class='pubtile'>
+<a href="https://rpubs.com/Pooja1td/Assignment3"><img class="pubthumb" alt="" src="https://d38j8069scdbm5.cloudfront.net/v6/P5441C759E0FFE/5c47ffb50c031937733f8364f33f55ff/png/?thumbnail_max_width=200&amp;unique=1728847313&amp;url=https%3A%2F%2Frstudio-pubs-static.s3.amazonaws.com%2F1231246_cd963ed1c5bb4b0fb9c972280eda8673.html&amp;viewport=960x960" /></a>
+<div class='pubinfo'>
+<h5><a href="https://rpubs.com/Pooja1td/Assignment3">Document</a></h5>
+<div class='desc'></div>
+<time datetime='2024-10-13T19:21:53+00:00'>4 months ago</time>
+</div>
+</div>
+<div class='pubrow2'></div>
+<div class='pubtile'>
+<a href="https://rpubs.com/Pooja1td/Assignment2"><img class="pubthumb" alt="" src="https://d38j8069scdbm5.cloudfront.net/v6/P5441C759E0FFE/3510518d780ba7caeabcec58be69d5d0/png/?thumbnail_max_width=200&amp;unique=1727539658&amp;url=https%3A%2F%2Frstudio-pubs-static.s3.amazonaws.com%2F1225741_698a0c94046247fc910d3a5be060b776.html&amp;viewport=960x960" /></a>
+<div class='pubinfo'>
+<h5><a href="https://rpubs.com/Pooja1td/Assignment2">Assignment2</a></h5>
+<div class='desc'></div>
+<time datetime='2024-09-28T16:07:38+00:00'>5 months ago</time>
+</div>
+</div>
+<div class='pubrow3'></div>
+<div class='pubtile'>
+<a href="https://rpubs.com/Pooja1td/Assignment-1"><img class="pubthumb" alt="" src="https://d38j8069scdbm5.cloudfront.net/v6/P5441C759E0FFE/f12da59e46d8db21e8adc02a13c53c76/png/?thumbnail_max_width=200&amp;unique=1726936687&amp;url=https%3A%2F%2Frstudio-pubs-static.s3.amazonaws.com%2F1223114_31e55dd1db8440ebbcb1221520664ade.html&amp;viewport=960x960" /></a>
+<div class='pubinfo'>
+<h5><a href="https://rpubs.com/Pooja1td/Assignment-1">Data Visualization </a></h5>
+<div class='desc'></div>
+<time datetime='2024-09-21T16:38:07+00:00'>5 months ago</time>
+</div>
+</div>
+<div class='pubrow2'></div>
+<div class='pubtile'>
+<a href="https://rpubs.com/Pooja1td/assignment1"><img class="pubthumb" alt="" src="https://d38j8069scdbm5.cloudfront.net/v6/P5441C759E0FFE/10d23fbb780e4deb062bfc9b1615ec93/png/?thumbnail_max_width=200&amp;unique=1726755121&amp;url=https%3A%2F%2Frstudio-pubs-static.s3.amazonaws.com%2F1222317_1b116c0a8ab6427ea2a21e4d6fe6b219.html&amp;viewport=960x960" /></a>
+<div class='pubinfo'>
+<h5><a href="https://rpubs.com/Pooja1td/assignment1">Assignment 1</a></h5>
+<div class='desc'></div>
+<time datetime='2024-09-19T14:12:01+00:00'>5 months ago</time>
+</div>
+</div>
+
+</div>
+
+<div class='clearfix'></div>
+</div>
+</div>
+</body>
+</html>
